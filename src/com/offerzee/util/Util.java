@@ -198,7 +198,6 @@ public class Util {
 	private static void register(String regId, String timezone,
 			Long[] regionIds, String gender, String version, String language,
 			Context context) throws Exception {
-		System.out.println("rrrrrrrrrrrrrrrrr");
 		SubscribeRequest subscribeRequest = new SubscribeRequest();
 		subscribeRequest.setApplianceId(getApplianceId(context));
 		subscribeRequest.setApplianceOS(Constants.APPLIANCE_TYPE_ANDROID);
@@ -252,9 +251,7 @@ public class Util {
 		}
 		if (httpConnection.getResponseCode() == HttpURLConnection.HTTP_OK) {
 			stream = httpConnection.getInputStream();
-			System.out.println("oooooooooooooooooo");
 		} else {
-			System.out.println("eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee "+httpConnection.getResponseCode() + httpConnection.getResponseMessage());
 			throw new Exception(
 					"Exception in getting response. Response code = "
 							+ httpConnection.getResponseCode());

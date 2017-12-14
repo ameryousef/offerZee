@@ -251,19 +251,12 @@ public class RegionsActivity extends Activity {
 				String msg = "";
 				try {
 					if (gcm == null) {
-						System.out.println("1111111111111111111111111111111");
 						gcm = GoogleCloudMessaging
 								.getInstance(RegionsActivity.this);
-						System.out.println("22222222222222222222222222222222");
 					} else {
-						System.out.println("333333333333333333333333333");
 					}
 					if (regid.isEmpty()) {
 						regid = gcm.register(Constants.SENDER_ID);
-						System.out.println("tttttttttttttttttttttttttttttttttttt : " + regid);
-					}
-					else {
-						System.out.println("4444444444444444444444 " + regid);
 					}
 					String timezone = TimeZone.getDefault().getID();
 					String locale = Util.getLocale(context);
