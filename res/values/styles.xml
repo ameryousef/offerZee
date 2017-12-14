@@ -1,0 +1,62 @@
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!--
+        Base application theme, dependent on API level. This theme is replaced
+        by AppBaseTheme from res/values-vXX/styles.xml on newer devices.
+    -->
+    <style name="AppBaseTheme" parent="android:Theme.Light">
+        <!--
+            Theme customizations available in newer API levels can go in
+            res/values-vXX/styles.xml, while customizations related to
+            backward-compatibility can go here.
+        -->
+    </style>
+
+    <!-- Application theme. -->
+    <style name="AppTheme" parent="AppBaseTheme">
+        <item name="android:actionBarStyle">@style/MyActionBar</item>
+        <item name="android:actionBarTabStyle">@style/MyActionBarTabs</item>
+        <item name="android:actionBarTabTextStyle">@style/MyActionBarTabText</item>
+        <item name="android:buttonStyle">@style/MyButton</item>
+    </style>
+
+    <style name="MyButton" parent="@android:style/Widget.Button">
+        <item name="android:textSize">14sp</item>
+        <item name="android:textColor">@color/white_color</item>
+        <item name="android:gravity">center</item>
+        <item name="android:background">@drawable/custom_btn_seagull</item>
+        <item name="android:padding">10dp</item>
+    </style>
+
+    <!-- ActionBar styles -->
+    <style name="MyActionBar" parent="android:Widget.Holo.ActionBar">
+        <item name="android:background">@drawable/action_bar_background</item>
+        <item name="android:titleTextStyle">@style/MyActionBarTitleText</item>
+    </style>
+
+    <style name="MyActionBarTabs" parent="android:Widget.Holo.ActionBar.TabView">
+        <item name="android:background">@drawable/action_bar_tab_selector</item>
+    </style>
+
+    <style name="MyActionBarTitleText" parent="android:TextAppearance.Holo.Widget.ActionBar.Title">
+        <item name="android:textColor">@color/action_bar_text_color</item>
+    </style>
+
+    <!-- ActionBar tabs text styles -->
+    <style name="MyActionBarTabText" parent="android:Widget.Holo.ActionBar.TabText">
+        <item name="android:textColor">@color/action_bar_bg_color</item>
+    </style>
+
+    <style name="PopupAnimation" mce_bogus="1" parent="android:Animation">
+        <item name="android:windowEnterAnimation">@anim/offer_details_popup_anim_in</item>
+        <item name="android:windowExitAnimation">@anim/offer_details_popup_anim_out</item>
+    </style>
+
+    <style name="offer_close_btn_style" parent="@android:style/Widget.Button">
+        <item name="android:textSize">14sp</item>
+        <item name="android:textColor">@color/white_color</item>
+        <item name="android:gravity">center</item>
+        <item name="android:background">@drawable/offer_done_btn_bkgd</item>
+    </style>
+
+</resources>

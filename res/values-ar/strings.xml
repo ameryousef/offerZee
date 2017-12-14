@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Offerzee</string>
+    <string name="settings_tab_name">الإعدادات</string>
+    <string name="offers_tab_name">العروض</string>
+    <string name="categories_tab_name">الفئات</string>
+    <string name="company_image_desc">شركة</string>
+    <string name="refresh">تحديث&#8230;</string>
+    <string name="flag_desc">علم</string>
+    <string name="offer_image_desc">عرض</string>
+    <string name="refresh_progress_dialog_title">تحديث&#8230;</string>
+    <string name="refresh_progress_dialog_msg">يرجى الانتظار</string>
+    <string name="connection_error_msg">خطأ في الاتصال!</string>
+    <string name="try_again">حاول مرة أخرى</string>
+    <string name="save">حفظ</string>
+    <string name="register_dialog_error_title">خطأ</string>
+    <string name="register_dialog_error_msg">يرجى المحاولة مرة أخرى</string>
+    <string name="alert_dialog_ok_button">موافق</string>
+    <string name="registering_progress_msg">الرجاء الإنتظار</string>
+    <string name="registering_progress_title">تسجيل&#8230;</string>
+    <string name="register_dialog_success_title">تحديث بنجاح</string>
+    <string name="register_dialog_success_msg">تم تحديث الإعدادات بنجاح</string>
+    <string name="register_dialog_no_region_selected_title">لا توجد منطقة محددة!</string>
+    <string name="register_dialog_no_region_selected_msg">يرجى تحديد المنطقة</string>
+    <string name="offer_exp_date_label">لغاية</string>
+    <string name="ads_banner_desc">لافتة الإعلانات</string>
+    <string name="next">التالي</string>
+    <string name="choose_gender_label">الرجاء الإختيار</string>
+    <string name="gender">الجنس</string>
+    <string name="region">المنطقة</string>
+    <string name="splash_screen_bkgrd_desc">شاشة البداية</string>
+    <string name="category_item_img_desc">فئة</string>
+    <string name="close">أغلق</string>
+    <string name="male">ذكر</string>
+    <string name="female">أنثى</string>
+    <string name="no_categories_msg">لا يوجد حاليا أي عروض لهذه الفئة</string>
+    <string name="no_offers_msg">لا يوجد حاليا أي عروض لهذه الشركة</string>
+    <string name="optional_update_dialog_title">تحديث التطبيق</string>
+    <string name="optional_update_dialog_msg">هناك نسخة أحدث من Offerzee متاحة للتحديث‎</string>
+    <string name="alert_dialog_yes_button">تحديث</string>
+    <string name="alert_dialog_no_button">لاحقا</string>
+    <string name="force_update_dialog_title">تحديث التطبيق</string>
+    <string name="force_update_dialog_msg">هناك نسخة أحدث من Offerzee متاحة. الرجاء تحديثه الآن حتى تستطيع الحصول على عروضنا الأخيرة</string>
+    <string name="force_update_dialog_update_button">تحديث</string>
+    <string name="force_update_dialog_exit_button">خروج</string>
+    <string name="select_all">الكل</string>
+    <string name="action_bat_tab_img_desc">علامة التبويب</string>
+    <!-- Company profile -->
+    <string name="company_info_address">العنوان</string>
+    <string name="company_info_contact">معلومات الاتصال</string>
+    <string name="company_info_phone">هاتف</string>
+    <string name="company_info_website">موقع الكتروني</string>
+    <string name="company_info_fbpage">فيسبوك</string>
+    <string name="company_info_email">بريد الكتروني</string>
+    <!-- End company profile -->
+    <!-- Start categories -->
+    <string name="category_automotive">مركبات</string>
+    <string name="category_entertainment">ترفيه</string>
+    <string name="category_fashion">موضة و تسوق</string>
+    <string name="category_food">مطاعم و مقاهي</string>
+    <string name="category_supermarkets">سوبرماركت</string>
+    <string name="category_health">صحة وجمال</string>
+    <string name="category_computer">تكنولوجيا وكمبيوتر</string>
+    <string name="category_telecom">اتصالات</string>
+    <string name="category_electronics">الكترونيات وكهربائيات</string>
+    <string name="category_home">خدمات و تجهيزات منزليه</string>
+    <string name="category_realestate">عقارات</string>
+    <string name="category_travel">سياحة ونقل</string>
+    <string name="category_education">تعليم</string>
+    <string name="category_legalservies">خدمات قانونية</string>
+    <string name="category_financialservices">خدمات مالية</string>
+    <string name="category_construction">انشاءات ومقاولات</string>
+    <string name="category_hotels">فنادق</string>
+    <!-- End categories -->
+</resources>

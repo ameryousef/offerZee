@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:layout_gravity="center"
+    android:gravity="center" >
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_gravity="center"
+        android:gravity="center" >
+
+        <ImageView
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:contentDescription="@string/gender"
+            android:gravity="center"
+            android:layout_marginRight="25dp"
+            android:layout_marginEnd="25dp"
+            android:src="@drawable/ic_gender"
+            android:id="@+id/gender" />
+
+        <ImageView
+            android:layout_width="120dp"
+            android:layout_height="120dp"
+            android:contentDescription="@string/region"
+            android:gravity="center"
+            android:layout_marginLeft="25dp"
+            android:layout_marginStart="25dp"
+            android:src="@drawable/ic_region"
+            android:id="@+id/region" />
+    </TableRow>
+    
+        <TableRow
+        android:layout_width="match_parent"
+        android:layout_gravity="center"
+        android:gravity="center" >
+
+        <TextView
+            android:gravity="center"
+            android:text="@string/gender"
+            android:layout_gravity="center"
+            android:layout_width="match_parent"
+            android:layout_marginRight="15dp"
+            android:layout_marginEnd="15dp"
+            android:textSize="14sp" />
+
+        <TextView
+            android:gravity="center"
+            android:layout_gravity="center"
+            android:text="@string/region"
+            android:layout_width="match_parent"
+            android:layout_marginLeft="15dp"
+            android:layout_marginStart="15dp"
+            android:textSize="14sp" />
+    </TableRow>
+
+</TableLayout>

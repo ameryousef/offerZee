@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Offerzee</string>
+    <string name="settings_tab_name">Settings</string>
+    <string name="offers_tab_name">Offers</string>
+    <string name="categories_tab_name">Categories</string>
+    <string name="company_image_desc">Company</string>
+    <string name="refresh">Refresh&#8230;</string>
+    <string name="flag_desc">Flag</string>
+    <string name="offer_image_desc">Offer</string>
+    <string name="refresh_progress_dialog_title">Refresh&#8230;</string>
+    <string name="refresh_progress_dialog_msg">Please wait</string>
+    <string name="connection_error_msg">Connection error!</string>
+    <string name="try_again">Try again</string>
+    <string name="save">Save</string>
+    <string name="register_dialog_error_title">Error</string>
+    <string name="register_dialog_error_msg">Please try again</string>
+    <string name="alert_dialog_ok_button">OK</string>
+    <string name="registering_progress_msg">Please wait</string>
+    <string name="registering_progress_title">Registering&#8230;</string>
+    <string name="register_dialog_success_title">Updated successfully</string>
+    <string name="register_dialog_success_msg">Your settings are successfully updated</string>
+    <string name="register_dialog_no_region_selected_title">No region selected!</string>
+    <string name="register_dialog_no_region_selected_msg">Please select a region</string>
+    <string name="offer_exp_date_label">Exp.</string>
+    <string name="ads_banner_desc">Ads banner</string>
+    <string name="next">Next</string>
+    <string name="choose_gender_label">Please select</string>
+    <string name="gender">Gender</string>
+    <string name="region">Region</string>
+    <string name="splash_screen_bkgrd_desc">OfferZee splash screen</string>
+    <string name="category_item_img_desc">OfferZee category</string>
+    <string name="close">Close</string>
+    <string name="male">Male</string>
+    <string name="female">Female</string>
+    <string name="no_categories_msg">There are currently no offers for this category</string>
+    <string name="no_offers_msg">There are currently no offers for this company</string>
+    <string name="optional_update_dialog_title">Application update</string>
+    <string name="optional_update_dialog_msg">A newer version of Offerzee is available</string>
+    <string name="alert_dialog_yes_button">Update</string>
+    <string name="alert_dialog_no_button">Not now</string>
+    <string name="force_update_dialog_title">Application update</string>
+    <string name="force_update_dialog_msg">A newer version of Offerzee is available. Please update it now so you can see our recent offers</string>
+    <string name="force_update_dialog_update_button">Update</string>
+    <string name="force_update_dialog_exit_button">Exit</string>
+    <string name="select_all">All</string>
+    <string name="action_bat_tab_img_desc">Tab image</string>
+    <!-- Company profile -->
+    <string name="company_info_address">Address</string>
+    <string name="company_info_contact">Contact Info</string>
+    <string name="company_info_phone">Phone</string>
+    <string name="company_info_website">Website</string>
+    <string name="company_info_fbpage">Facebook</string>
+    <string name="company_info_email">Email</string>
+    <!-- End company profile -->
+    <!-- Start categories -->
+    <string name="category_automotive">Automotive</string>
+    <string name="category_entertainment">Entertainment</string>
+    <string name="category_fashion">Fashion</string>
+    <string name="category_food">Food and Drink</string>
+    <string name="category_supermarkets">Supermarkets</string>
+    <string name="category_health">Health and Beauty</string>
+    <string name="category_computer">Computer and Technology</string>
+    <string name="category_telecom">Telecom</string>
+    <string name="category_electronics">Electronics</string>
+    <string name="category_home">Home and Garden</string>
+    <string name="category_realestate">Real Estate</string>
+    <string name="category_travel">Travel and Transportation</string>
+    <string name="category_education">Education</string>
+    <string name="category_legalservies">Legal services</string>
+    <string name="category_financialservices">Financial services</string>
+    <string name="category_construction">Construction and Contractors</string>
+    <string name="category_hotels">Hotels and Motels</string>
+    <!-- End categories -->
+</resources>
